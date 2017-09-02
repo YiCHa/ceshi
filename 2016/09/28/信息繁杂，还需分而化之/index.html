@@ -1,0 +1,887 @@
+<!DOCTYPE html>
+
+
+
+  
+
+
+<html class="theme-next gemini use-motion" lang="zh-Hans">
+<head>
+  <meta charset="UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
+<meta name="theme-color" content="#222">
+
+
+
+
+
+
+
+
+
+<meta http-equiv="Cache-Control" content="no-transform" />
+<meta http-equiv="Cache-Control" content="no-siteapp" />
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+  <link href="/lib/fancybox/source/jquery.fancybox.css?v=2.1.5" rel="stylesheet" type="text/css" />
+
+
+
+
+  
+  
+  
+  
+
+  
+    
+    
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+    
+    
+    <link href="//fonts.googleapis.com/css?family=Lato:300,300italic,400,400italic,700,700italic&subset=latin,latin-ext" rel="stylesheet" type="text/css">
+  
+
+
+
+
+
+
+<link href="/lib/font-awesome/css/font-awesome.min.css?v=4.6.2" rel="stylesheet" type="text/css" />
+
+<link href="/css/main.css?v=5.1.2" rel="stylesheet" type="text/css" />
+
+
+  <meta name="keywords" content="Hexo, NexT" />
+
+
+
+
+
+  <link rel="alternate" href="/atom.xml" title="玩勿丧志" type="application/atom+xml" />
+
+
+
+
+  <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico?v=5.1.2" />
+
+
+
+
+
+
+<meta name="description" content="如今大部分人几乎脱离纸和笔，收集、记录信息都已数字化。同时，这个时代的信息量又是如此巨大，倘佯在信息之海，各种信息若只是借助单一的应用小船拖载，不仅杂乱、低效，更重要的是若小船翻了，上面的信息也会湮灭。所以我们不仅要学会将繁杂的信息分类记录，我们还要对自己的信息数据安全负责。 如何保证信息的记录易整理且数据安全？不少读者可能烦恼过这个问题。“不要将鸡蛋放在一个篮子里”，分而化之，这是最简单也是">
+<meta property="og:type" content="article">
+<meta property="og:title" content="信息繁杂，还需分而化之">
+<meta property="og:url" content="http://yoursite.com/2016/09/28/信息繁杂，还需分而化之/index.html">
+<meta property="og:site_name" content="玩勿丧志">
+<meta property="og:description" content="如今大部分人几乎脱离纸和笔，收集、记录信息都已数字化。同时，这个时代的信息量又是如此巨大，倘佯在信息之海，各种信息若只是借助单一的应用小船拖载，不仅杂乱、低效，更重要的是若小船翻了，上面的信息也会湮灭。所以我们不仅要学会将繁杂的信息分类记录，我们还要对自己的信息数据安全负责。 如何保证信息的记录易整理且数据安全？不少读者可能烦恼过这个问题。“不要将鸡蛋放在一个篮子里”，分而化之，这是最简单也是">
+<meta property="og:locale" content="zh-Hans">
+<meta property="og:image" content="http://i63.tinypic.com/2qjbswp.jpg">
+<meta property="og:image" content="http://i64.tinypic.com/ioog2u.jpg">
+<meta property="og:image" content="http://i63.tinypic.com/5baza.jpg">
+<meta property="og:image" content="http://i65.tinypic.com/2da0x00.jpg">
+<meta property="og:image" content="http://i67.tinypic.com/vpcgli.jpg">
+<meta property="og:image" content="http://i65.tinypic.com/2vinnfr.jpg">
+<meta property="og:image" content="http://i65.tinypic.com/1gt2z6.png">
+<meta property="og:updated_time" content="2017-09-02T17:40:42.008Z">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="信息繁杂，还需分而化之">
+<meta name="twitter:description" content="如今大部分人几乎脱离纸和笔，收集、记录信息都已数字化。同时，这个时代的信息量又是如此巨大，倘佯在信息之海，各种信息若只是借助单一的应用小船拖载，不仅杂乱、低效，更重要的是若小船翻了，上面的信息也会湮灭。所以我们不仅要学会将繁杂的信息分类记录，我们还要对自己的信息数据安全负责。 如何保证信息的记录易整理且数据安全？不少读者可能烦恼过这个问题。“不要将鸡蛋放在一个篮子里”，分而化之，这是最简单也是">
+<meta name="twitter:image" content="http://i63.tinypic.com/2qjbswp.jpg">
+
+
+
+<script type="text/javascript" id="hexo.configurations">
+  var NexT = window.NexT || {};
+  var CONFIG = {
+    root: '/',
+    scheme: 'Gemini',
+    version: '5.1.2',
+    sidebar: {"position":"left","display":"post","offset":12,"offset_float":12,"b2t":false,"scrollpercent":false,"onmobile":false},
+    fancybox: true,
+    tabs: true,
+    motion: {"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn"}},
+    duoshuo: {
+      userId: '0',
+      author: '博主'
+    },
+    algolia: {
+      applicationID: '',
+      apiKey: '',
+      indexName: '',
+      hits: {"per_page":10},
+      labels: {"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}
+    }
+  };
+</script>
+
+
+
+  <link rel="canonical" href="http://yoursite.com/2016/09/28/信息繁杂，还需分而化之/"/>
+
+
+
+
+
+  <title>信息繁杂，还需分而化之 | 玩勿丧志</title>
+  
+
+
+
+
+
+
+
+
+</head>
+
+<body itemscope itemtype="http://schema.org/WebPage" lang="zh-Hans">
+
+  
+  
+    
+  
+
+  <div class="container sidebar-position-left page-post-detail">
+    <div class="headband"></div>
+
+    <header id="header" class="header" itemscope itemtype="http://schema.org/WPHeader">
+      <div class="header-inner"><div class="site-brand-wrapper">
+  <div class="site-meta ">
+    
+
+    <div class="custom-logo-site-title">
+      <a href="/"  class="brand" rel="start">
+        <span class="logo-line-before"><i></i></span>
+        <span class="site-title">玩勿丧志</span>
+        <span class="logo-line-after"><i></i></span>
+      </a>
+    </div>
+      
+        <p class="site-subtitle">寻找适合的应用与软件</p>
+      
+  </div>
+
+  <div class="site-nav-toggle">
+    <button>
+      <span class="btn-bar"></span>
+      <span class="btn-bar"></span>
+      <span class="btn-bar"></span>
+    </button>
+  </div>
+</div>
+
+<nav class="site-nav">
+  
+
+  
+    <ul id="menu" class="menu">
+      
+        
+        <li class="menu-item menu-item-home">
+          <a href="/" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-home"></i> <br />
+            
+            首页
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-about">
+          <a href="/about/" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-user"></i> <br />
+            
+            关于
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-tags">
+          <a href="/tags/" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-tags"></i> <br />
+            
+            标签
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-categories">
+          <a href="/categories/" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-th"></i> <br />
+            
+            分类
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-archives">
+          <a href="/archives/" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-archive"></i> <br />
+            
+            归档
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-search">
+          <a href="/search/" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-search"></i> <br />
+            
+            搜索
+          </a>
+        </li>
+      
+
+      
+    </ul>
+  
+
+  
+</nav>
+
+
+
+ </div>
+    </header>
+
+    <main id="main" class="main">
+      <div class="main-inner">
+        <div class="content-wrap">
+          <div id="content" class="content">
+            
+
+  <div id="posts" class="posts-expand">
+    
+
+  
+
+  
+  
+  
+
+  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2016/09/28/信息繁杂，还需分而化之/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="YiCH">
+      <meta itemprop="description" content="">
+      <meta itemprop="image" content="http://wx3.sinaimg.cn/large/7a061ef3gy1fj57o6xi3sj208c08c74x.jpg">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="玩勿丧志">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">信息繁杂，还需分而化之</h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">发表于</span>
+              
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2016-09-28T18:32:00+08:00">
+                2016-09-28
+              </time>
+            
+
+            
+
+            
+          </span>
+
+          
+
+          
+            
+            <!--noindex-->
+              <span class="post-comments-count">
+                <span class="post-meta-divider">|</span>
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-comment-o"></i>
+                </span>
+                <a href="/2016/09/28/信息繁杂，还需分而化之/#comments" itemprop="discussionUrl">
+                  <span class="post-comments-count hc-comment-count" data-xid="2016/09/28/信息繁杂，还需分而化之/" itemprop="commentsCount"></span>
+                </a>
+              </span>
+              <!--/noindex-->
+            
+          
+
+          
+          
+
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        <p><img src="http://i63.tinypic.com/2qjbswp.jpg" alt="封面"></p>
+<hr>
+<p>如今大部分人几乎脱离纸和笔，收集、记录信息都已数字化。同时，这个时代的信息量又是如此巨大，倘佯在信息之海，各种信息若只是借助单一的应用小船拖载，不仅杂乱、低效，更重要的是若小船翻了，上面的信息也会湮灭。所以我们不仅要学会将繁杂的信息分类记录，我们还要对自己的信息数据安全负责。</p>
+<p>如何保证信息的记录易整理且数据安全？不少读者可能烦恼过这个问题。“不要将鸡蛋放在一个篮子里”，分而化之，这是最简单也是最安全的信息管理模式。我结合自身分化解决信息问题的经验给大家一些建议，其中会牵涉到比较多的软件，我会简单介绍各软件在我的信息系统中的作用，并会推荐类似应用给大家提供更多选择，希望大家会有耐心浏览到最后。</p>
+<h3 id="声明：除了-Workflowy-邀请链接-和幕布邀请链接-外，以下软件和链接无任何利益相关，评测我会尽量选择-ifanr-的文章。"><a href="#声明：除了-Workflowy-邀请链接-和幕布邀请链接-外，以下软件和链接无任何利益相关，评测我会尽量选择-ifanr-的文章。" class="headerlink" title="声明：除了  Workflowy 邀请链接 和幕布邀请链接 外，以下软件和链接无任何利益相关，评测我会尽量选择 ifanr 的文章。"></a>声明：除了 <a href="https://workflowy.com/invite/3ae24b10.lnx" target="_blank" rel="external"> Workflowy 邀请链接</a> 和<a href="http://mubu.io/inv/17927" target="_blank" rel="external">幕布邀请链接</a> 外，以下软件和链接无任何利益相关，评测我会尽量选择 ifanr 的文章。</h3><hr>
+<h2 id="一、信息收集"><a href="#一、信息收集" class="headerlink" title="一、信息收集"></a>一、信息收集</h2><p>网络世界里信息丰富，也是我们主要的信息来源。我们浏览过的信息不可能全部用大脑记忆，快捷有效地采集这些信息是提高信息消化效率的主要途经。</p>
+<blockquote>
+<p>曾写过一篇专门介绍网络信息收集应用的小文章，<a href="http://yich.farbox.com/post/wang-ye-shou-ji-lei-ying-yong/2016-09-09" target="_blank" rel="external">点击阅读</a>。</p>
+</blockquote>
+<p>这类的应用主要分两类，共有如图四个。</p>
+<p><img src="http://i64.tinypic.com/ioog2u.jpg" alt=""></p>
+<h3 id="1-Pocket"><a href="#1-Pocket" class="headerlink" title="1. Pocket"></a>1. <a href="https://getpocket.com/" target="_blank" rel="external">Pocket</a></h3><p>Pocket 无论是移动版还是网页版，对网页再排版效果都特别好，有 Chrome 一键保存扩展及离线阅读应用，配合移动端应用，使用很方便。我用来保存有深度的人文类、生活类文章，包括短篇小说、散文、哲学、科学等等。</p>
+<blockquote>
+<p>ifanr 评测文章：<a href="http://www.ifanr.com/app/413718" target="_blank" rel="external">稍候阅读随身行 – Pocket 中文版</a>。</p>
+</blockquote>
+<h3 id="2-Diigo"><a href="#2-Diigo" class="headerlink" title="2. Diigo"></a>2. <a href="https://diigo.com/" target="_blank" rel="external">Diigo</a></h3><p>Diigo 的 Chrome 插件 Diigo Web Collector 不仅可以收藏网页，还有高亮网页文字，添加笔记和截屏保存等功能。结合 Diigo 笔记工具 Quick Note(需到 Chrome 应用商店下载) 和移动端应用可以轻松管理。这款软件因为可以添加注记，我用来保存学习和工作的文章，重点部分轻松保存。</p>
+<blockquote>
+<p>Chrome插件网测评：<a href="http://chromecj.com/productivity/2014-09/187.html" target="_blank" rel="external">Chrome书签、注释、截图、标记插件：Diigo Web Collector</a>。</p>
+</blockquote>
+<h3 id="3-Raindrop-io"><a href="#3-Raindrop-io" class="headerlink" title="3. Raindrop.io"></a>3. <a href="https://raindrop.io/" target="_blank" rel="external">Raindrop.io</a></h3><p>在 Instapaper 和 Readerbality (已经停止服务) 停滞不前时，只有 Raindrop.io 还在继续开发以抗衡 Pocket 的不断壮大。其 Chrome 插件有侧边操作栏，不用登录网页可以就可以管理收藏列表和进行设置操作，也提供了移动端应用。这样就比较适合我这种喜欢折腾软件的人，用来保存教程类的文章再方便不过了。不过这个软件有时候保存的速度稍慢，也不能单独收集文字或者图片，只能收集整个网页。</p>
+<blockquote>
+<p>ifanr 评测：<a href="http://www.ifanr.com/app/559737" target="_blank" rel="external">你要的完美云书签，可能就是它 – Raindrop.io </a>。</p>
+</blockquote>
+<h3 id="4-花瓣"><a href="#4-花瓣" class="headerlink" title="4. 花瓣"></a>4. <a href="http://huaban.com/" target="_blank" rel="external">花瓣</a></h3><p>花瓣网提供浏览器插件，能够在网页批量、截图采集图片到花瓣网，是公开的。另外还有书签栏采集工具，以供不能使用插件的浏览器使用。花瓣移动端应用也是在停更几年后重新启动。这个我主要用来收集图片。</p>
+<p><img src="http://i63.tinypic.com/5baza.jpg" alt=""></p>
+<p>  <strong>同类应用推荐</strong></p>
+<blockquote>
+<ul>
+<li><a href="http://funp.in/" target="_blank" rel="external">方片收集</a>  全能便捷的收集应用，之前很喜欢用这个，但是后来有一次登陆的帐号竟然被替换了(官方给的解释是程序员后台操作时不小心把自己的帐号全局了)，就抛弃了。确实好用。</li>
+<li><a href="http://shouqu.me/" target="_blank" rel="external">收趣</a>  只能在移动端阅读收藏的文章。</li>
+<li><a href="https://.candybank.com/" target="_blank" rel="external">Candy</a>  和 Rraindrop.io 类似，<del>无移动端应用</del> iOS 端已发布测试版， Android 后续会发布。</li>
+</ul>
+</blockquote>
+<hr>
+<h2 id="二、信息编写"><a href="#二、信息编写" class="headerlink" title="二、信息编写"></a>二、信息编写</h2><p>生活中的个人信息、想法的记录，是自己最重要的隐私，这会关系到财产安全甚至人身安全，这类应用选择要慎重，主要以安全易用的为主。</p>
+<p><img src="http://i65.tinypic.com/2da0x00.jpg" alt=""></p>
+<h3 id="1-临时信息"><a href="#1-临时信息" class="headerlink" title="1. 临时信息"></a>1. 临时信息</h3><p>临时信息顾名思义就是没有个人信息，不需要长久保存，只是短时间需要使用，比如某个陌生人联系方式、约会地点、购物清单等。这类选择就比较轻松，因为无重要个人信息，且可不用联网，那么个人信息就不容易被他人获取。</p>
+<h3 id="1-随笔记"><a href="#1-随笔记" class="headerlink" title="(1) 随笔记"></a>(1) <a href="http://www.suibiji.com/" target="_blank" rel="external">随笔记</a></h3><p>随笔记(GNotes 的中国大陆版)，很轻量的笔记应用，选择这个主要是考虑到临时的信息很杂，各种内容都有。该软件移动端使用方便，清单、提醒、照片、录音、手指画和附件都可以加入笔记，可以同步到帐号或者Gmail，访问Web也可以浏览笔记，Chrome 有记录笔记插件。超过一定字数后会卡顿。</p>
+<p><img src="http://i67.tinypic.com/vpcgli.jpg" alt=""></p>
+<h3 id="2-文本编辑器"><a href="#2-文本编辑器" class="headerlink" title="(2) 文本编辑器"></a>(2) 文本编辑器</h3><p>这个在桌面使用，新建一个<em>临时信息.txt</em> 文件放在桌面，需要记录时直接打开写入，整理也很方便。</p>
+<p> <strong>同类应用推荐</strong></p>
+<blockquote>
+<ul>
+<li><a href="http://www.wandoujia.com/apps/com.socialnmobile.dictapps.notepad.color.note" target="_blank" rel="external">ColorNote</a>  制作待办事项和购物清单，可以使用密码来保护便签， 支持备份到SD卡， 支持在Google号备份和同步。</li>
+<li><a href="http://www.wandoujia.com/apps/com.microsoft.bites" target="_blank" rel="external">Parchi</a>  微软出品，不能同步。</li>
+<li><a href="http://www.wandoujia.com/apps/com.zoho.notebook" target="_blank" rel="external">Zoho notebook</a>  出自”全球第一大在线软件提供商”Zoho，功能全面，界面美观，手势操作很华丽便捷。</li>
+<li><a href="http://www.wandoujia.com/apps/com.myatejx.sakernote" target="_blank" rel="external">舒心录</a>  个人产品，支持Markdown语法、单条加密和本地及网盘备份。</li>
+<li><a href="http://www.appinn.com/catmemonote/" target="_blank" rel="external">CatMemoNote</a> PC桌面上简洁好用的记事软件，是日本人作品，个人汉化，类似的还有很多，Minipad2，<a href="http://www.treepad.com/" target="_blank" rel="external">Treepad</a>，<a href="http://www.horstmuc.de/wmem.htm" target="_blank" rel="external">Mempad</a>等，可以看看<a href="https://xbeta.info/5-treenote.htm" target="_blank" rel="external">相关推荐</a> ，不过其中部分停止更新了，需要的可以自己搜索下载。</li>
+</ul>
+</blockquote>
+<h3 id="2-非临时信息"><a href="#2-非临时信息" class="headerlink" title="2. 非临时信息"></a>2. 非临时信息</h3><p>这类笔记比较重要，需要长期保存，有比较重要的隐私，比如不常用易忘的帐号、注册信息、纪念日、地址等。</p>
+<h3 id="1-Simplenote"><a href="#1-Simplenote" class="headerlink" title="(1) Simplenote"></a>(1) <a href="https://simplenote.com/" target="_blank" rel="external">Simplenote</a></h3><p>Simplenote 是与博客平台 Wordpress 同厂出品，只能记录纯文本，支持 Markdown 语法，各种平台都支持，真正的全平台，同步速度也相当快，几乎是瞬时。除了记录信息外，平常手机上的写作我也在这里进行。桌面端比较重，可以考虑第三方应用 <a href="http://getnotation.com/" target="_blank" rel="external">Notation</a>，同样可以双向即时同步。</p>
+<blockquote>
+<p>异次元评测:<a href="http://www.iplaysoft.com/simplenote.html" target="_blank" rel="external">Simplenote - 简约极致、轻量高效的云同步纯文本笔记软件 (支持 Markdown 写作)</a>。</p>
+</blockquote>
+<h3 id="2-Workflowy-邀请链接"><a href="#2-Workflowy-邀请链接" class="headerlink" title="(2)  Workflowy(邀请链接)"></a>(2)  <a href="https://workflowy.com/invite/3ae24b10.lnx" target="_blank" rel="external">Workflowy(邀请链接)</a></h3><p>Workflowy 是一款简洁而不简单的纯文本记录应用，每条 Iterm 可无限制向下建立分支，用来记录头脑风暴相当合适，还可以用作 Todo 来管理未完成工作，也可以用来编写提纲。通过 # 和 @ 建立标签轻松分类管理全局 Iterms，支持团队协作。Chrome 离线应用、Web 版和移动端都非常容易上手。这款优秀的应用我是用来写工作日志和文章提纲，结合<a href="http://mubu.io/inv/17927" target="_blank" rel="external">幕布</a>可以制作思维导图，利用 Chrome 插件 <a href="https://chrome.google.com/webstore/detail/workflowy-for-coders/hogpngcijkfmbfijfkaapeejhijipddp" target="_blank" rel="external">Workflowy for coder</a> 可以支持 Markdown ，结合 Stylish 还可以可插入图片，移动端结合 Orgzly 可以设置提醒。</p>
+<blockquote>
+<p>ifanr 评测：<a href="http://www.ifanr.com/150811" target="_blank" rel="external">WorkFlowy：整理你的思绪</a><br>知乎使用经验：<a href="https://www.zhihu.com/question/20491194" target="_blank" rel="external">如何玩转 WorkFlowy？</a></p>
+</blockquote>
+<h3 id="3-OneNote"><a href="#3-OneNote" class="headerlink" title="(3) OneNote"></a>(3) <a href="http://www.onenote.com/" target="_blank" rel="external">OneNote</a></h3><p>这个是我整个笔记系统里面唯一的重量级应用，因为有些东西必须要用到大厂商相对可靠、安全的服务，比如说敏感个人信息、日记、重要超长篇笔记，并且可以配合 Office 和 Onedrive 使用，用来知识整理还是比较方便。这个应用在手机上可能比较慢，我一般用随笔记编写，然后利用分享功能保存到这里，既避免使用臃肿的软件本体，又能安全保存数据。</p>
+<blockquote>
+<p>ifanr 使用经验： <a href="http://www.ifanr.com/app/610728" target="_blank" rel="external">OneNote 深度教学：这 17 个功能你必须知道。 </a></p>
+</blockquote>
+<p><strong>同类应用推荐</strong></p>
+<blockquote>
+<ul>
+<li><a href="http://mubu.io/" target="_blank" rel="external">幕布</a>  基本功能与 Workflowy 相似，可以生成简单的思维导图，该文章内的树状图都是在这里生成。</li>
+<li><a href="https://dynalist.io/" target="_blank" rel="external">Dynalist </a>  等 Chrome 和 Android 应用出来了就换这个。“我们最初想做 Dynalist 就是因为 WorkFlowy 不能满足我们的需要……现在 WorkFlowy 有的基本都有了”该网站Dynalist 的创始人之一如是说——来自知乎<a href="https://www.zhihu.com/question/36717385/answer/68706348" target="_blank" rel="external">Dynalist 与 WorkFlowy 主要的区别，或者说改进在什么地方？</a>的回答。</li>
+<li><a href="https://evernote.com" target="_blank" rel="external">Evernote</a>   国内版是大家熟悉的“印象笔记”，全能型，第三方软件也很多，如果不喜欢大部头可以使用轻量级的移动客户端 <a href="http://www.wandoujia.com/apps/com.zhan_dui.evermemo" target="_blank" rel="external">Evermemo</a> 或者 <a href="http://www.wandoujia.com/apps/com.duanze.gasst" target="_blank" rel="external">Purenote</a>，在特定的文件内记录笔记可以双向同步。</li>
+</ul>
+</blockquote>
+<h3 id="3-非常重要的隐私"><a href="#3-非常重要的隐私" class="headerlink" title="3. 非常重要的隐私"></a>3. 非常重要的隐私</h3><h4 id="Box"><a href="#Box" class="headerlink" title="Box"></a><a href="https://www.box.com/" target="_blank" rel="external">Box</a></h4><p>对于正值青春年少的我们，浏览网页时可能会有一些特别的东西需要保存，比如下载链接、图片，或者不愿意被人看到，或者根本就不能被任何人看到。这部分内容我就用了国内比较小众的 Box 网盘，结合 ShareX 桌面应用和 Chrome 插件可以将图片或者文字一步上传到 Box，移动端可以用 Box 官方应用，也可以用 ES 文件浏览器也可以上传和浏览盘内文件。</p>
+<p> <strong>同类应用推荐</strong></p>
+<blockquote>
+<ul>
+<li><a href="https://disk.yandex.com/" target="_blank" rel="external">Yandex 网盘</a>  俄罗斯著名搜索引擎出品，传输速度没有 Box 快。</li>
+<li><a href="https://drobox.com/" target="_blank" rel="external">Drobox 网盘</a>  对，我们这部分就是要选择小众的，比较难用的，才能杜绝别人来偷窥隐私。 </li>
+</ul>
+</blockquote>
+<hr>
+<h2 id="三、信息发布"><a href="#三、信息发布" class="headerlink" title="三、信息发布"></a>三、信息发布</h2><p>信息的发布对于我们普通人就是写博客或者微博了。</p>
+<h3 id="1-Farbox"><a href="#1-Farbox" class="headerlink" title="1. Farbox"></a>1.<a href="https://www.farbox.com/" target="_blank" rel="external"> Farbox</a></h3><p>博客我选择了 Farbox，因为浏览量比较少，买了30元五年的服务，每个月100M，比 Wordpress 之类需要搭建网站的更简单上手。配套有编辑器 FarBox Editor，支持 Markdown 写作，登陆账号后写的文章自动发布到博客。可以同步到 Drobox。</p>
+<p>Farbox 可以不用图床直接插入图片，但是博客内容加载比我用的图床 Tinypic 慢，Tinypic 也可以结合 ShareX 使用，截图、图片上传和外链复制都很方便。</p>
+<blockquote>
+<p>36Kr评测：[博客还有另外一种极简的可能性，叫 FarBox。] (<a href="http://36kr.com/p/217779.html" target="_blank" rel="external">http://36kr.com/p/217779.html</a>)</p>
+</blockquote>
+<p> <strong>同类应用推荐</strong></p>
+<blockquote>
+<ul>
+<li><a href="http://www.jianshu.com/" target="_blank" rel="external">简书</a>  比较年轻化的一个写作与阅读社区，网页 Markdown 支持相当好，写作与阅读体验都很棒。</li>
+<li><a href="https://wordpress.org/" target="_blank" rel="external">Wordpress</a>  著名博客平台，要自己研究折腾，模板比 Farbox 多。</li>
+</ul>
+</blockquote>
+<h3 id="2-微博"><a href="#2-微博" class="headerlink" title="2.  微博"></a>2.  <a href="weibo.com">微博</a></h3><p>这个大家都会使用，就不多说了。选择用来发布个人心情，有趣、有益、简单的事情。</p>
+<p><img src="http://i65.tinypic.com/2vinnfr.jpg" alt=""></p>
+<h2 id="四、总结"><a href="#四、总结" class="headerlink" title="四、总结"></a>四、总结</h2><p>上面总结起来就如下图所示：</p>
+<p><img src="http://i65.tinypic.com/1gt2z6.png" alt=""></p>
+<p>虽然上面一套看起来很繁琐，大家可以参考精简，不必用这么多软件，但是尽量分开为好，因为若某个网站收集太多个人信息，甚至可以还原建立一个三维的个体，比我们自己还要了解自己，这方面多花一些心思还是值得的。</p>
+
+      
+    </div>
+    
+    
+    
+
+    
+
+    
+      <div>
+        <div style="padding: 10px 0; margin: 20px auto; width: 90%; text-align: center;">
+  <div>比起买咖啡，我更喜欢买软件！</div>
+  <button id="rewardButton" disable="enable" onclick="var qr = document.getElementById('QR'); if (qr.style.display === 'none') {qr.style.display='block';} else {qr.style.display='none'}">
+    <span>Donate</span>
+  </button>
+  <div id="QR" style="display: none;">
+
+    
+      <div id="wechat" style="display: inline-block">
+        <img id="wechat_qr" src="http://wx4.sinaimg.cn/large/7a061ef3gy1fj56xtvystj20f50gs0wa.jpg" alt="YiCH WeChat Pay"/>
+        <p>WeChat Pay</p>
+      </div>
+    
+
+    
+      <div id="alipay" style="display: inline-block">
+        <img id="alipay_qr" src="http://wx4.sinaimg.cn/large/7a061ef3gy1fj56xtrnxpj20f50gx0ws.jpg" alt="YiCH Alipay"/>
+        <p>Alipay</p>
+      </div>
+    
+
+    
+
+  </div>
+</div>
+
+      </div>
+    
+
+    
+
+    <footer class="post-footer">
+      
+
+      
+      
+      
+
+      
+        <div class="post-nav">
+          <div class="post-nav-next post-nav-item">
+            
+              <a href="/2016/09/07/方片之间，包容万象——方片收集/" rel="next" title="方片之间，包容万象——方片收集">
+                <i class="fa fa-chevron-left"></i> 方片之间，包容万象——方片收集
+              </a>
+            
+          </div>
+
+          <span class="post-nav-divider"></span>
+
+          <div class="post-nav-prev post-nav-item">
+            
+              <a href="/2017/09/01/hello-world/" rel="prev" title="Hello World">
+                Hello World <i class="fa fa-chevron-right"></i>
+              </a>
+            
+          </div>
+        </div>
+      
+
+      
+      
+    </footer>
+  </div>
+  
+  
+  
+  </article>
+
+
+
+    <div class="post-spread">
+      
+    </div>
+  </div>
+
+
+          </div>
+          
+
+
+          
+  <div class="comments" id="comments">
+    
+      <div id="hypercomments_widget"></div>
+    
+  </div>
+
+
+        </div>
+        
+          
+  
+  <div class="sidebar-toggle">
+    <div class="sidebar-toggle-line-wrap">
+      <span class="sidebar-toggle-line sidebar-toggle-line-first"></span>
+      <span class="sidebar-toggle-line sidebar-toggle-line-middle"></span>
+      <span class="sidebar-toggle-line sidebar-toggle-line-last"></span>
+    </div>
+  </div>
+
+  <aside id="sidebar" class="sidebar">
+    
+    <div class="sidebar-inner">
+
+      
+
+      
+        <ul class="sidebar-nav motion-element">
+          <li class="sidebar-nav-toc sidebar-nav-active" data-target="post-toc-wrap" >
+            文章目录
+          </li>
+          <li class="sidebar-nav-overview" data-target="site-overview">
+            站点概览
+          </li>
+        </ul>
+      
+
+      <section class="site-overview sidebar-panel">
+        <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
+          
+            <img class="site-author-image" itemprop="image"
+              src="http://wx3.sinaimg.cn/large/7a061ef3gy1fj57o6xi3sj208c08c74x.jpg"
+              alt="YiCH" />
+          
+            <p class="site-author-name" itemprop="name">YiCH</p>
+            <p class="site-description motion-element" itemprop="description">不是不努力，敌人太狡猾</p>
+        </div>
+
+        <nav class="site-state motion-element">
+
+          
+            <div class="site-state-item site-state-posts">
+            
+              <a href="/archives/">
+            
+                <span class="site-state-item-count">4</span>
+                <span class="site-state-item-name">日志</span>
+              </a>
+            </div>
+          
+
+          
+
+          
+            
+            
+            <div class="site-state-item site-state-tags">
+              <a href="/categories/index.html">
+                <span class="site-state-item-count">2</span>
+                <span class="site-state-item-name">标签</span>
+              </a>
+            </div>
+          
+
+        </nav>
+
+        
+          <div class="feed-link motion-element">
+            <a href="/atom.xml" rel="alternate">
+              <i class="fa fa-rss"></i>
+              RSS
+            </a>
+          </div>
+        
+
+        <div class="links-of-author motion-element">
+          
+        </div>
+
+        
+        
+
+        
+        
+
+        
+
+
+      </section>
+
+      
+      <!--noindex-->
+        <section class="post-toc-wrap motion-element sidebar-panel sidebar-panel-active">
+          <div class="post-toc">
+
+            
+              
+            
+
+            
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-3"><a class="nav-link" href="#声明：除了-Workflowy-邀请链接-和幕布邀请链接-外，以下软件和链接无任何利益相关，评测我会尽量选择-ifanr-的文章。"><span class="nav-number">1.</span> <span class="nav-text">声明：除了  Workflowy 邀请链接 和幕布邀请链接 外，以下软件和链接无任何利益相关，评测我会尽量选择 ifanr 的文章。</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#一、信息收集"><span class="nav-number"></span> <span class="nav-text">一、信息收集</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#1-Pocket"><span class="nav-number">1.</span> <span class="nav-text">1. Pocket</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#2-Diigo"><span class="nav-number">2.</span> <span class="nav-text">2. Diigo</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#3-Raindrop-io"><span class="nav-number">3.</span> <span class="nav-text">3. Raindrop.io</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#4-花瓣"><span class="nav-number">4.</span> <span class="nav-text">4. 花瓣</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#二、信息编写"><span class="nav-number"></span> <span class="nav-text">二、信息编写</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#1-临时信息"><span class="nav-number">1.</span> <span class="nav-text">1. 临时信息</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#1-随笔记"><span class="nav-number">2.</span> <span class="nav-text">(1) 随笔记</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#2-文本编辑器"><span class="nav-number">3.</span> <span class="nav-text">(2) 文本编辑器</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#2-非临时信息"><span class="nav-number">4.</span> <span class="nav-text">2. 非临时信息</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#1-Simplenote"><span class="nav-number">5.</span> <span class="nav-text">(1) Simplenote</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#2-Workflowy-邀请链接"><span class="nav-number">6.</span> <span class="nav-text">(2)  Workflowy(邀请链接)</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#3-OneNote"><span class="nav-number">7.</span> <span class="nav-text">(3) OneNote</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#3-非常重要的隐私"><span class="nav-number">8.</span> <span class="nav-text">3. 非常重要的隐私</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#Box"><span class="nav-number">8.1.</span> <span class="nav-text">Box</span></a></li></ol></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#三、信息发布"><span class="nav-number"></span> <span class="nav-text">三、信息发布</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#1-Farbox"><span class="nav-number">1.</span> <span class="nav-text">1. Farbox</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#2-微博"><span class="nav-number">2.</span> <span class="nav-text">2.  微博</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#四、总结"><span class="nav-number"></span> <span class="nav-text">四、总结</span></a></div>
+            
+
+          </div>
+        </section>
+      <!--/noindex-->
+      
+
+      
+
+    </div>
+  </aside>
+
+
+        
+      </div>
+    </main>
+
+    <footer id="footer" class="footer">
+      <div class="footer-inner">
+        <div class="copyright" >
+  
+  &copy; 
+  <span itemprop="copyrightYear">2017</span>
+  <span class="with-love">
+    <i class="fa fa-heart"></i>
+  </span>
+  <span class="author" itemprop="copyrightHolder">YiCH</span>
+
+  
+</div>
+
+
+  <div class="powered-by">由 <a class="theme-link" href="https://hexo.io">Hexo</a> 强力驱动</div>
+
+  <span class="post-meta-divider">|</span>
+
+  <div class="theme-info">主题 &mdash; <a class="theme-link" href="https://github.com/iissnan/hexo-theme-next">NexT.Gemini</a> v5.1.2</div>
+
+
+        
+
+
+
+
+
+
+
+        
+      </div>
+    </footer>
+
+    
+      <div class="back-to-top">
+        <i class="fa fa-arrow-up"></i>
+        
+      </div>
+    
+
+  </div>
+
+  
+
+<script type="text/javascript">
+  if (Object.prototype.toString.call(window.Promise) !== '[object Function]') {
+    window.Promise = null;
+  }
+</script>
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  <script type="text/javascript" src="/lib/jquery/index.js?v=2.1.3"></script>
+
+  
+  <script type="text/javascript" src="/lib/fastclick/lib/fastclick.min.js?v=1.0.6"></script>
+
+  
+  <script type="text/javascript" src="/lib/jquery_lazyload/jquery.lazyload.js?v=1.9.7"></script>
+
+  
+  <script type="text/javascript" src="/lib/velocity/velocity.min.js?v=1.2.1"></script>
+
+  
+  <script type="text/javascript" src="/lib/velocity/velocity.ui.min.js?v=1.2.1"></script>
+
+  
+  <script type="text/javascript" src="/lib/fancybox/source/jquery.fancybox.pack.js?v=2.1.5"></script>
+
+
+  
+
+
+  <script type="text/javascript" src="/js/src/utils.js?v=5.1.2"></script>
+
+  <script type="text/javascript" src="/js/src/motion.js?v=5.1.2"></script>
+
+
+
+  
+  
+
+
+  <script type="text/javascript" src="/js/src/affix.js?v=5.1.2"></script>
+
+  <script type="text/javascript" src="/js/src/schemes/pisces.js?v=5.1.2"></script>
+
+
+
+  <script type="text/javascript" src="/js/src/scrollspy.js?v=5.1.2"></script>
+<script type="text/javascript" src="/js/src/post-details.js?v=5.1.2"></script>
+
+
+  
+  <script type="text/javascript" src="/js/src/scrollspy.js?v=5.1.2"></script>
+<script type="text/javascript" src="/js/src/post-details.js?v=5.1.2"></script>
+
+
+
+  
+
+
+  <script type="text/javascript" src="/js/src/bootstrap.js?v=5.1.2"></script>
+
+
+
+  
+
+
+  
+
+
+
+
+	
+
+		<script type="text/javascript">
+		_hcwp = window._hcwp || [];
+
+		_hcwp.push({widget:"Bloggerstream", widget_id: 94558, selector:".hc-comment-count", label: "{\%COUNT%\}" });
+
+		
+		_hcwp.push({widget:"Stream", widget_id: 94558, xid: "2016/09/28/信息繁杂，还需分而化之/"});
+		
+
+		(function() {
+		if("HC_LOAD_INIT" in window)return;
+		HC_LOAD_INIT = true;
+		var lang = (navigator.language || navigator.systemLanguage || navigator.userLanguage || "en").substr(0, 2).toLowerCase();
+		var hcc = document.createElement("script"); hcc.type = "text/javascript"; hcc.async = true;
+		hcc.src = ("https:" == document.location.protocol ? "https" : "http")+"://w.hypercomments.com/widget/hc/94558/"+lang+"/widget.js";
+		var s = document.getElementsByTagName("script")[0];
+		s.parentNode.insertBefore(hcc, s.nextSibling);
+		})();
+		</script>
+
+	
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+</body>
+</html>
