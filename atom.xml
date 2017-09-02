@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2017-09-01T20:08:47.007Z</updated>
+  <updated>2017-09-02T16:24:47.037Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -20,7 +20,7 @@
     <link href="http://yoursite.com/2017/09/02/My-New-Post/"/>
     <id>http://yoursite.com/2017/09/02/My-New-Post/</id>
     <published>2017-09-01T20:07:28.000Z</published>
-    <updated>2017-09-01T20:08:47.007Z</updated>
+    <updated>2017-09-02T16:24:47.037Z</updated>
     
     <content type="html"><![CDATA[<p><img src="http://upload-images.jianshu.io/upload_images/696615-b1a39e64ca508de4.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt="Hello World!"></p>
 <p>安心写作工具是在自己写作过程中发现有这个需求的，如果用通常的写作工具会感觉眼睛很累，桌面其它干扰元素较多，注意力容易被分散。这类工具的一打特点就是全屏占有，没有过多的状态栏、工具栏等元素，旨在提供干净环境写作。<br>由于这只是很单一的功能，所以只是打算简单介绍一下，其中任何一个功能都会够用。记事本类的就不介绍了。</p>
@@ -63,6 +63,10 @@
     
     </summary>
     
+    
+      <category term="Soft" scheme="http://yoursite.com/tags/Soft/"/>
+    
+      <category term="Write" scheme="http://yoursite.com/tags/Write/"/>
     
   </entry>
   
