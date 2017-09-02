@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<search>
+  <entry>
+    <title><![CDATA[安心写作工具简单介绍]]></title>
+    <url>%2F2017%2F09%2F02%2FMy-New-Post%2F</url>
+    <content type="text"><![CDATA[安心写作工具是在自己写作过程中发现有这个需求的，如果用通常的写作工具会感觉眼睛很累，桌面其它干扰元素较多，注意力容易被分散。这类工具的一打特点就是全屏占有，没有过多的状态栏、工具栏等元素，旨在提供干净环境写作。由于这只是很单一的功能，所以只是打算简单介绍一下，其中任何一个功能都会够用。记事本类的就不介绍了。 一、在线类1.Writer 支持Markdown写作 Google 帐号绑定 可以自定义设置颜色 自动储存 可以统计中文字数 中文PDF导出乱码，得用PDF打印机 2.ZenPen 支持Markdown格式导出 二、离线类1.Q10 该类软件鼻祖 带打字机音效（中文输入法没有） 自定义颜色 可以统计中文字数 默认设置中文显示不全，解决方式：Ctrl+P打开设置\Layout\Line Spacing 改为200 2011年就已经停止更新，Win7 可以用，其它没有测试 2.Writemonkey 已入正，没钱所以只捐赠了€1，解锁一些功能 带打字机音效 自定义颜色 默认设置中文输入有问题，解决方式：F10打开设置/Misc（最后一个）/Enable markup syntax highlighting 勾选去掉 3. ZenWriter 很漂亮也很贵 带音乐 带打字机音效 有 Night 模式但不能自定义颜色]]></content>
+  </entry>
+  <entry>
+    <title><![CDATA[Hello World]]></title>
+    <url>%2F2017%2F09%2F01%2Fhello-world%2F</url>
+    <content type="text"><![CDATA[Welcome to Hexo! This is your very first post. Check documentation for more info. If you get any problems when using Hexo, you can find the answer in troubleshooting or you can ask me on GitHub. Quick StartCreate a new post1$ hexo new "My New Post" More info: Writing Run server1$ hexo server More info: Server Generate static files1$ hexo generate More info: Generating Deploy to remote sites1$ hexo deploy More info: Deployment]]></content>
+  </entry>
+</search>
