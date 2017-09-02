@@ -71,11 +71,11 @@
   </entry>
   
   <entry>
-    <title>Google Earth（谷歌地球）带你了解现存社会主义国家（多图）</title>
+    <title>Google Earth带你了解现存社会主义国家</title>
     <link href="http://yoursite.com/2016/12/06/%E5%9C%B0%E5%9B%BE%E5%AF%B9%E6%AF%94/"/>
     <id>http://yoursite.com/2016/12/06/地图对比/</id>
     <published>2016-12-06T08:00:00.000Z</published>
-    <updated>2017-09-02T17:40:51.381Z</updated>
+    <updated>2017-09-02T17:54:40.631Z</updated>
     
     <content type="html"><![CDATA[<p><img src="http://i63.tinypic.com/5oc9g.jpg" alt="封面-社会主义国家"></p>
 <p>##写在前面<br><strong>1. 本文不讨论政治，本文不讨论政治，本文不讨论政治（严肃脸）。</strong><br><strong>2. 个人知识与精力有限，文中有纰漏之处望指正（笑脸）</strong></p>
@@ -334,6 +334,10 @@
     
     </summary>
     
+    
+      <category term="Essay" scheme="http://yoursite.com/tags/Essay/"/>
+    
+      <category term="Map" scheme="http://yoursite.com/tags/Map/"/>
     
   </entry>
   
@@ -663,7 +667,7 @@
     <link href="http://yoursite.com/2016/09/09/10%E6%AC%BE%E9%AB%98%E6%95%88%E7%BD%91%E9%A1%B5%E6%94%B6%E9%9B%86%E5%BA%94%E7%94%A8/"/>
     <id>http://yoursite.com/2016/09/09/10款高效网页收集应用/</id>
     <published>2016-09-09T03:14:00.000Z</published>
-    <updated>2017-09-02T17:51:23.628Z</updated>
+    <updated>2017-09-02T17:54:51.186Z</updated>
     
     <content type="html"><![CDATA[<font face="宋体">
 
@@ -793,9 +797,9 @@
     </summary>
     
     
-      <category term="Essay" scheme="http://yoursite.com/tags/Essay/"/>
+      <category term="Soft" scheme="http://yoursite.com/tags/Soft/"/>
     
-      <category term="Map" scheme="http://yoursite.com/tags/Map/"/>
+      <category term="Note" scheme="http://yoursite.com/tags/Note/"/>
     
   </entry>
   
