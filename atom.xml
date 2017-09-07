@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2017-09-02T16:24:47.037Z</updated>
+  <updated>2017-09-07T17:10:37.346Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -14,6 +14,36 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title></title>
+    <link href="http://yoursite.com/2017/09/08/ShareX%E8%87%AA%E5%AE%9A%E4%B9%89%E4%B8%83%E7%89%9B%E9%85%8D%E7%BD%AE/"/>
+    <id>http://yoursite.com/2017/09/08/ShareX自定义七牛配置/</id>
+    <published>2017-09-07T17:07:12.233Z</published>
+    <updated>2017-09-07T17:10:37.346Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="ShareX自定义七牛配置"><a href="#ShareX自定义七牛配置" class="headerlink" title="ShareX自定义七牛配置"></a>ShareX自定义七牛配置</h1><p>之前的图床用的 Tinypic 和 微博相册，这两者都免费且空间充足，但免费的才是最贵的，趁现在正好从 Farbox 迁到 Github（Farbox 官方迁移到 Bitcron 后经常打不开，再者国内访问速度一直就很慢，就抛弃了），尝试一下推荐甚广的七牛云。<br>没怎么研究七牛云有没有官方的上传工具，之前一直用 ShareX 上传截图与图片，所以搜索了一下这个，仅找到了一篇有效文章，链接如下：<br><a href="http://ystyle.top/2017/07/05/share-the-use-of-qiniu-file-upload/" target="_blank" rel="external">YSTYLE—ShareX使用七牛文件上传</a></p>
+<hr>
+<p>这里面详细介绍了步骤，在这里增加一些基本的信息供参考：</p>
+<ol>
+<li>Shift+右键打开的是 Powershell，在这里输入命令。<br><img src="http://ovdoyg3ps.bkt.clouddn.com/201717080100-F.png" alt=""></li>
+<li>在文章给出的 Windows 使用示例命令前加上“./” ，再复制到 Powershell，如下，注意空格：</li>
+</ol>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">./qiniutoken.exe -ak=自己的AK -sk=自己的SK -bk=自己上传图片的空间名</div></pre></td></tr></table></figure>
+<p>程序会自动计算Token，然后粘贴到配置文件相应处就可以。</p>
+<p>自己折腾的过程中就只遇到了这两个小问题，再次感谢该篇文章的作者。</p>
+<hr>
+<p>如果觉得麻烦，还有一个软件可以选择：<br><a href="http://mpic.lzhaofu.cn/" target="_blank" rel="external">七牛图片上传工具—MPic</a><br>这个就比较方便，还可以已上传进行图片管理。</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;h1 id=&quot;ShareX自定义七牛配置&quot;&gt;&lt;a href=&quot;#ShareX自定义七牛配置&quot; class=&quot;headerlink&quot; title=&quot;ShareX自定义七牛配置&quot;&gt;&lt;/a&gt;ShareX自定义七牛配置&lt;/h1&gt;&lt;p&gt;之前的图床用的 Tinypic 和 微博相册，这两者
+    
+    </summary>
+    
+    
+  </entry>
   
   <entry>
     <title>安心写作工具简单介绍</title>
