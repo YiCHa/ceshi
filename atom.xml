@@ -55,10 +55,9 @@
     <link href="http://yoursite.com/2017/09/02/%E5%AE%89%E5%BF%83%E5%86%99%E4%BD%9C%E5%B7%A5%E5%85%B7/"/>
     <id>http://yoursite.com/2017/09/02/安心写作工具/</id>
     <published>2017-09-01T20:07:28.000Z</published>
-    <updated>2017-09-02T16:24:47.037Z</updated>
+    <updated>2017-09-10T16:38:01.312Z</updated>
     
-    <content type="html"><![CDATA[<p><img src="http://upload-images.jianshu.io/upload_images/696615-b1a39e64ca508de4.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt="Hello World!"></p>
-<p>安心写作工具是在自己写作过程中发现有这个需求的，如果用通常的写作工具会感觉眼睛很累，桌面其它干扰元素较多，注意力容易被分散。这类工具的一打特点就是全屏占有，没有过多的状态栏、工具栏等元素，旨在提供干净环境写作。<br>由于这只是很单一的功能，所以只是打算简单介绍一下，其中任何一个功能都会够用。记事本类的就不介绍了。</p>
+    <content type="html"><![CDATA[<p>安心写作工具是在自己写作过程中发现有这个需求的，如果用通常的写作工具会感觉眼睛很累，桌面其它干扰元素较多，注意力容易被分散。这类工具的一打特点就是全屏占有，没有过多的状态栏、工具栏等元素，旨在提供干净环境写作。<br>由于这只是很单一的功能，所以只是打算简单介绍一下，其中任何一个功能都会够用。记事本类的就不介绍了。</p>
 <h2 id="一、在线类"><a href="#一、在线类" class="headerlink" title="一、在线类"></a>一、在线类</h2><h3 id="1-Writer"><a href="#1-Writer" class="headerlink" title="1.Writer"></a>1.<a href="https://writer.bighugelabs.com/welcome" target="_blank" rel="external">Writer</a></h3><ul>
 <li>支持Markdown写作</li>
 <li>Google 帐号绑定</li>
@@ -76,10 +75,8 @@
 <li>自定义颜色</li>
 <li>可以统计中文字数</li>
 <li>默认设置中文显示不全，解决方式：Ctrl+P打开设置\Layout\Line Spacing 改为200</li>
-<li>2011年就已经停止更新，Win7 可以用，其它没有测试</li>
 </ul>
 <h3 id="2-Writemonkey"><a href="#2-Writemonkey" class="headerlink" title="2.Writemonkey"></a>2.<a href="http://writemonkey.com/" target="_blank" rel="external">Writemonkey</a></h3><ul>
-<li>已入正，没钱所以只捐赠了€1，解锁一些功能</li>
 <li>带打字机音效</li>
 <li>自定义颜色</li>
 <li>默认设置中文输入有问题，解决方式：F10打开设置/Misc（最后一个）/Enable markup syntax highlighting 勾选去掉</li>
@@ -94,9 +91,11 @@
     
     <summary type="html">
     
-      &lt;p&gt;&lt;img src=&quot;http://upload-images.jianshu.io/upload_images/696615-b1a39e64ca508de4.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240&quot; a
+      &lt;p&gt;安心写作工具是在自己写作过程中发现有这个需求的，如果用通常的写作工具会感觉眼睛很累，桌面其它干扰元素较多，注意力容易被分散。这类工具的一打特点就是全屏占有，没有过多的状态栏、工具栏等元素，旨在提供干净环境写作。&lt;br&gt;由于这只是很单一的功能，所以只是打算简单介绍一下，其中任
     
     </summary>
+    
+      <category term="Machine Learning" scheme="http://yoursite.com/categories/Machine-Learning/"/>
     
     
       <category term="Soft" scheme="http://yoursite.com/tags/Soft/"/>
