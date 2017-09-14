@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2017-09-14T09:59:41.489Z</updated>
+  <updated>2017-09-14T10:10:20.942Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -20,7 +20,7 @@
     <link href="http://yoursite.com/2017/09/15/%E6%89%B9%E9%87%8F%E4%B8%8B%E8%BD%BD%E5%BE%AE%E5%8D%9A%E5%9B%BE%E7%89%87%EF%BC%88%E5%8E%9F%E5%9B%BE%EF%BC%89/"/>
     <id>http://yoursite.com/2017/09/15/批量下载微博图片（原图）/</id>
     <published>2017-09-14T16:00:00.000Z</published>
-    <updated>2017-09-14T09:59:41.489Z</updated>
+    <updated>2017-09-14T10:10:20.942Z</updated>
     
     <content type="html"><![CDATA[<p>最近在装修，经常在微博上浏览一些装修图片寻找灵感，但是觉得每个微博点开来看很麻烦，收藏图片后期来看也不是很方便，所以就将一些博主的图片全部下载再结合 XnView 图片查看器的分组标记功能，便捷地在本地浏览并收藏喜欢的装修样式，后面就比较好找了。<br>这里就将下载的操作流程简单介绍一下，扫除了一些基本障碍供大家参考。</p>
 <hr>
@@ -36,10 +36,9 @@
 </li>
 </ul>
 <figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">CD D:\master\weiboPicDownloader-master\bin</div></pre></td></tr></table></figure>
-<p>有的（比如我的Windows 10 系统）可能还要输入<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">D:</div></pre></td></tr></table></figure></p>
-<p>才能切换到该文件夹<br>再输入</p>
+<p>有的（比如我的Windows 10 系统）可能还要输入 D: 才能切换到该文件夹，再输入</p>
 <figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">java -jar wb.jar</div></pre></td></tr></table></figure>
-<p>再选择 *3 ，输入你需要下载图片的微博用户昵称，就可以开始下载了，下载的文件在 E 盘 img 目录下。<br><img src="http://ovdoyg3ps.bkt.clouddn.com/201717141719-Y.png" alt="CMD 操作界面"></p>
+<p>然后选择 <em>3 </em>，输入你需要下载图片的微博用户昵称，就可以开始下载了，下载的文件在 E 盘 img 目录下。<br><img src="http://ovdoyg3ps.bkt.clouddn.com/201717141719-Y.png" alt="CMD 操作界面"></p>
 <p><img src="http://ovdoyg3ps.bkt.clouddn.com/201717141729-s.png" alt="微博昵称"></p>
 <blockquote class="pullquote right"><p>微博主要用三种手段标注用户:</p>
 <ul>
