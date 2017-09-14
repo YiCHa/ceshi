@@ -1,6 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title><![CDATA[批量下载微博图片（原图）]]></title>
+    <url>%2F2017%2F09%2F15%2F%E6%89%B9%E9%87%8F%E4%B8%8B%E8%BD%BD%E5%BE%AE%E5%8D%9A%E5%9B%BE%E7%89%87%EF%BC%88%E5%8E%9F%E5%9B%BE%EF%BC%89%2F</url>
+    <content type="text"><![CDATA[最近在装修，经常在微博上浏览一些装修图片寻找灵感，但是觉得每个微博点开来看很麻烦，收藏图片后期来看也不是很方便，所以就将一些博主的图片全部下载再结合 XnView 图片查看器的分组标记功能，便捷地在本地浏览并收藏喜欢的装修样式，后面就比较好找了。这里就将下载的操作流程简单介绍一下，扫除了一些基本障碍供大家参考。 按照以下步骤来进行： 在 Java官网 选择对应系统版本下载并安装 Java； 在 Github 上 yAnXImIN的主页下载所需程序，或点此直接下载压缩包 这里面也有简单的介绍； 解压 master 压缩包，将 master 文件夹放到 D 盘根目录（就是直接放在 D 盘），这样后面会比较方便； Win+R，输入 cmd 打开命令提示符界面，然后输入下面的内容 1CD D:\master\weiboPicDownloader-master\bin 有的（比如我的Windows 10 系统）可能还要输入1D: 才能切换到该文件夹再输入 1java -jar wb.jar 再选择 *3 ，输入你需要下载图片的微博用户昵称，就可以开始下载了，下载的文件在 E 盘 img 目录下。 微博主要用三种手段标注用户: 用户昵称: 显示在页面的名字 用户名: 系统中用户的名字 用户Id: 系统中用户的ID编号]]></content>
+      <categories>
+        <category>Soft</category>
+      </categories>
+      <tags>
+        <tag>Soft</tag>
+        <tag>Img</tag>
+      </tags>
+  </entry>
+  <entry>
     <title><![CDATA[ShareX自定义七牛配置]]></title>
     <url>%2F2017%2F09%2F08%2FShareX%E8%87%AA%E5%AE%9A%E4%B9%89%E4%B8%83%E7%89%9B%E9%85%8D%E7%BD%AE%2F</url>
     <content type="text"><![CDATA[之前的图床用的 Tinypic 和 微博相册，这两者都免费且空间充足，但免费的才是最贵的，趁现在正好从 Farbox 迁到 Github（Farbox 官方迁移到 Bitcron 后经常打不开，再者国内访问速度一直就很慢，就抛弃了），尝试一下推荐甚广的七牛云。没怎么研究七牛云有没有官方的上传工具，之前一直用 ShareX 上传截图与图片，所以搜索了一下这个，仅找到了一篇有效文章，链接如下：YSTYLE—ShareX使用七牛文件上传 这里面详细介绍了步骤，在这里增加一些基本的信息供参考： Shift+右键打开的是 Powershell，在这里输入命令。 在文章给出的 Windows 使用示例命令前加上“./” ，再复制到 Powershell，如下，注意空格： 1./qiniutoken.exe -ak=自己的AK -sk=自己的SK -bk=自己上传图片的空间名 程序会自动计算Token，然后粘贴到配置文件相应处就可以。 自己折腾的过程中就只遇到了这两个小问题，再次感谢该篇文章的作者。 如果觉得麻烦，还有一个软件可以选择：七牛图片上传工具—MPic这个就比较方便，还可以已上传进行图片管理。]]></content>
